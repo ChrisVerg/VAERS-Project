@@ -59,12 +59,13 @@ true_only_vector <- true_only
 
 only_covid_df <- three_by_df %>% slice(true_only_vector)
 only_covid_count <- count(only_covid_df)
+only_covid_count
 
 # This returns only 726202 of the original 781128
 
 c19_vs_all_diff <- 781128 -726202
 c19_vs_all_diff
- # This means that off all vaccines injuries reported that 54,926 we not COVID
+# This means that off all vaccines injuries reported that 54,926 we not COVID
 # Now filter for "not COVID" to make sure that data analysis is correct
 # Using the same filter except with false, the total should be 54926. 
 
