@@ -126,6 +126,5 @@ view(COVID_vector)
 
 
 tail(only_covid)
-count(only_covid)
 length(only_covid)
 count(VAERS_ID_VAX)
