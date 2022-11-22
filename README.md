@@ -1,2 +1,2 @@
-# ExraProject
-Non School Projects
+# ExtraProject
+
