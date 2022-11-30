@@ -9,7 +9,17 @@
 # Also, I will try to break down the data into severe reactions and then 
 # further what the demographic of severe reactions were by age and risk factors. 
 
-
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("readr")
+install.packages("readxl")
+install.packages("tidyverse")
+install.packages("reshape2")
+install.packages("datasets")
+install.packages("PerformanceAnalytics")
+install.packages("corrplot")
+install.packages("gridExtra")
+install.packages("Ecdat")
 
 
 
