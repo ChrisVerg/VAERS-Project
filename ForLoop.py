@@ -20,10 +20,7 @@ columns = vax_columns, data_columns
 
 
 # import list of files
-vaersimport = [
-{data1990 = pd.read_csv('C:/Users/chris/Desktop/WozU_Data_Science/VAERS-data/1990/1990VAERSDATA.csv') }, 
-{vax1990 = pd.read_csv('C:/Users/chris/Desktop/WozU_Data_Science/VAERS-data/1990/1990VAERSVAX.csv')}
-]
+VAERS_MESSY
 
 for column in columns:
      if df_column == columns:
