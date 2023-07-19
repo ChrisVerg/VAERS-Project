@@ -1,7 +1,6 @@
-# Vaccine Adverse Event Reporting System (VAERS) Data Evaluation
+# Legacy and modern VAERS data cleaning and synthesis
+## VAERS stands for Vaccine Adverse Event Reporting System this systems is run by the Center for disease Control (CDC) and Food and Drug Administration (FDA) and is designed to collect reports of vaccine Injuries. 
 
-# This is an analysis of the reported vaccine injuries in VAERS. Please review https://vaers.hhs.gov/ to understand the nature of the reported injuries and accuracy of the data.  
-
-# The data regarding Varicella cases can be found at https://www.cdc.gov/mmwr/mmwr_nd/index.html
-
-# This project seeks to view and understand various vaccine program effectiveness. 
+The datasets are too large to be contained in this repository. The data and information about the data can be found [HERE](https://vaers.hhs.gov/)
+  
+In this project I worked through encoding and format changes that took place since the incecption of VAERS in the 1990's. Once all formatting and encoding issues were addressed I syntheized the entire data archive into a single source. You can see my code [HERE](https://nbviewer.org/github/ChrisVerg/VAERS-Project/blob/main/VAERS_Data_Cleaning.ipynb)
